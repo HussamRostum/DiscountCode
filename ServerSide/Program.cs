@@ -76,7 +76,7 @@ namespace Server
                     if (rowCount == 0)
                     {
                         Console.WriteLine("Table of Codes is empty. Generating discount codes......");
-                        GenerateDiscountCodes(1000, 8); // Generate 1000 codes with 8 characters
+                        GenerateDiscountCodes(2000, 8); // Generate 2000 codes with 8 characters
                         Console.WriteLine("Discount codes generated and saved to the database.");
                     }
 
